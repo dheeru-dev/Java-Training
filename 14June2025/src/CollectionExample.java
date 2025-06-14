@@ -9,6 +9,7 @@ public class CollectionExample {
         subjects.add("Sci");
         subjects.add("Eng");
         subjects.add("Geo");
+        subjects.add("Eng"); //Duplicate allowed
 
         System.out.println("subjects:"+subjects);
 
