@@ -42,7 +42,11 @@ public class ArrayListTest {
         list.add("Three");
         list.add("Four");
         list.add("Five");
-        System.out.println(list);
+        System.out.println("Linked List:"+list);
+        for(String t: list){
+            System.out.println("Iteration:"+t);
+            System.out.println("Address#"+System.identityHashCode(t));
+        }
     }
 }
 
